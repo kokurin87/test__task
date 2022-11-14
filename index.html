@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+        <button class="header__menuButton">Menu</button>
+    </header>
+    <div class="container">
+      <main class="main">
+        <div class="main__list">
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">9</a></li>
+            <li><a href="#">10</a></li>
+          </ul>
+        </div>
+        <div class="main__overlay"></div>
+        <div class="main__content">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nobis
+            earum eum adipisci laudantium corporis perferendis sed obcaecati
+            laborum alias, unde, labore debitis quidem! Provident consequatur
+            itaque animi voluptate perspiciatis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nobis
+            earum eum adipisci laudantium corporis perferendis sed obcaecati
+            laborum alias, unde, labore debitis quidem! Provident consequatur
+            itaque animi voluptate perspiciatis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nobis
+            earum eum adipisci laudantium corporis perferendis sed obcaecati
+            laborum alias, unde, labore debitis quidem! Provident consequatur
+            itaque animi voluptate perspiciatis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nobis
+            earum eum adipisci laudantium corporis perferendis sed obcaecati
+            laborum alias, unde, labore debitis quidem! Provident consequatur
+            itaque animi voluptate perspiciatis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nobis
+            earum eum adipisci laudantium corporis perferendis sed obcaecati
+            laborum alias, unde, labore debitis quidem! Provident consequatur
+            itaque animi voluptate perspiciatis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nobis
+            earum eum adipisci laudantium corporis perferendis sed obcaecati
+            laborum alias, unde, labore debitis quidem! Provident consequatur
+            itaque animi voluptate perspiciatis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nobis
+            earum eum adipisci laudantium corporis perferendis sed obcaecati
+            laborum alias, unde, labore debitis quidem! Provident consequatur
+            itaque animi voluptate perspiciatis.
+          </p>
+
+        </div>
+        </div>
+        
+      </main>
+    </div>
+    <div class="wrapper">
+      <div class="form">
+        <form action="send.php" method="post" id="form" class="footer__form">
+          <h1 class="form__title">Отправка данных</h1>
+          <div class="form__item">
+            <label for="formEmail" class="form__label">E-mail</label>
+            <input id="formEmail" type="text" name="email" class="form__input form__input-email">
+          </div>
+          <div class="form__item">
+            <label for="formPhone" class="form__label">Phone</label>
+            <input type="tel" name="phone" id="formPhone" class="form__input form__input-phone" >
+          </div>
+          <div class="form__item">
+            <div class="form__title">Укажите пол</div>
+            <div class="options">
+              <div class="options__item">
+                <input id="formMan" type="radio" value="1" name="sex" class="options__input">
+                <label for="formMan" class="options__label">Мужчина</label>
+              </div>
+              <div class="options__item">
+                <input id="formWoman" type="radio" checked value="0" name="sex" class="options__input">
+                <label for="formWoman" class="options__label">Женщина</label>
+              </div>
+            </div>
+          </div>
+          <div class="form__item form__item-age form__item-hide">
+          <div class="form__title">Укажите возраст</div>
+              <input id="formAge" type="number" value="18" name="age" class="form__input form__input-age">
+              <label for="formAge" class="options__label"></label>
+            </div>
+            <button type="submit" class="form__button">Отправить</button>
+         </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <button class="footer__formButton">Form</button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
